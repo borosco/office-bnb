@@ -1,4 +1,4 @@
-//Slideshow 
+// This is for the slideshow
 var slideIndex = 2;
 showSlides(slideIndex);
 
