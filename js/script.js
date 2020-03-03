@@ -26,6 +26,7 @@ function showSlides(n) {
 }
 
 function myFunction() {
+    var weWork = document.getElementById("card-wework");
     if(weWork.style.display === "none") {
         weWork.style.display = "block";
     } else {
