@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* styling for navigation bar */
 
 .navbar{
@@ -56,6 +57,14 @@
 }
 
 .mySlides {
+=======
+.slideshow-container{
+  width: 100%;
+  position: relative;
+}
+
+.mySlides{
+>>>>>>> fix slideshow to have proper functionality and remove unecessary comments
   display: none;
 }
 
@@ -66,26 +75,34 @@
   object-fit: cover;
 }
 
+<<<<<<< HEAD
 .prev, .next {
+=======
+.prev, .next{
+>>>>>>> fix slideshow to have proper functionality and remove unecessary comments
   cursor: pointer;
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
+  color: black;
   font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
+  font-size: 20px;
+  transition: 0.4 ease-in-out;
   border-radius: 0 3px 3px 0;
-  user-select: none;
+  user-select:none;
+  padding: 2%;
 }
 
+<<<<<<< HEAD
 .next {
+=======
+.next{
+>>>>>>> fix slideshow to have proper functionality and remove unecessary comments
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
+<<<<<<< HEAD
 .prev:hover, .next:hover {
   background-color: rgba(245, 245, 245, 0.8);
 }
@@ -94,13 +111,25 @@
   color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;
+=======
+.prev:hover, .next:hover{
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.slideshow-text{
+  color: aliceblue;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 3%;
+>>>>>>> fix slideshow to have proper functionality and remove unecessary comments
   position: absolute;
-  bottom: 8px;
+  bottom: 1%;
   width: 100%;
   text-align: center;
   font-weight: bold;
 }
 
+<<<<<<< HEAD
 .numbertext {
   color: #f2f2f2;
   font-size: 15px;
@@ -108,6 +137,16 @@
   position: absolute;
   top: 5%;
   right: 45%;
+=======
+.numbertext{
+  color: whitesmoke;
+  font-size: 12px;
+  padding: 3%;
+  position: absolute;
+  top: 0;
+  right: 45%;
+  font-weight: bold;
+>>>>>>> fix slideshow to have proper functionality and remove unecessary comments
 }
 
 .slideshow-circles{
@@ -118,22 +157,30 @@
   cursor: pointer;
   height: 15px;
   width: 15px;
-  margin: 0 2px;
+  margin: 0 1% 0 1%;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active, .dot:hover{
   background-color: #717171;
 }
 
+<<<<<<< HEAD
 .faded {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
+=======
+.faded{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1s;
+    animation-name: fade;
+    animation-duration: 1s;
+>>>>>>> fix slideshow to have proper functionality and remove unecessary comments
 }
 
 @-webkit-keyframes fade {
