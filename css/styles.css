@@ -1,0 +1,62 @@
+body{
+    background-color:  white;
+}
+.jumbotron{
+    margin: 40px;
+    padding: 70px;
+    background-color:black;
+    margin-top: 50px;
+    width: 90%;
+    height: 50%;
+    display: table;
+    margin-top: 0px;
+    background-image: url(office.jpg);
+    background-size: cover;
+    background-size: 100%;
+}
+.unlisted{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 34px;
+    
+}
+.unlisted li{
+    float: left;
+    width: 200px;
+    height: 40px;
+    background-color: skyblue;
+    opacity: .8;
+    line-height: 40px;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.unlisted li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-right: 0px;
+}
+.unlisted li a:hover{
+    background-color: crimson;
+}
+.unlisted li .unlisted li{
+    display: none;
+}
+.unlisted li:hover .unlisted li{
+   display: block; 
+}
+
+    
+
+
+
+
+
+
+
+
+
