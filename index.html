@@ -7,12 +7,52 @@
     <!-- cdn  boot strap link  -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- linking to css local file -->
-    <link rel="stylesheet" href="css.styles.css">
-
-
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="data:image/png;base64,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">
 </head>
 <body>
 
+    <div class="container-fluid">
+        <!-- added a navigation bar -->
+        <div class="jumbotron navbar">
+            <nav>
+                <ul class="unlisted">
+                    <li><a>Home</a></li>
+                    <li><a>Agents</a></li>
+                    <li><a>Bookspace</a></li>
+                    <li><a>About us</a></li>
+                    <li><a>Contact us</a></li>
+                </ul>
+            </nav>
+        
+        </div>
+        <!-- add a slideshow -->
+        <div class="slideshow-container">
+            <div class="mySlides faded">
+                <div class="numbertext">1 / 3</div>
+                <img class="slideshow-images" src="https://ak5.picdn.net/shutterstock/videos/4923065/thumb/1.jpg" alt="image1">
+                <div class="slideshow-text">Bronze Office</div>
+            </div>
+            <div class="mySlides faded">
+                <div class="numbertext">2 / 3</div>
+                <img class="slideshow-images" src="https://i.pinimg.com/originals/88/e9/87/88e987452a904a06bd9985c82fd3854b.jpg" alt="image2">
+                <div class="slideshow-text">Platinum Office</div>
+            </div>
+            <div class="mySlides faded">
+                <div class="numbertext">3 / 3</div>
+                <img class="slideshow-images" src="https://www.ceosuite.com/wp-content/uploads/2016/05/lkg-office900.jpg" alt="image3">
+                <div class="slideshow-text">Silver Office</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div class="slideshow-circles">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
 </body>
 <!-- The footer -->
 <footer>
