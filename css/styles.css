@@ -148,3 +148,8 @@
 button{
     background-color: cyan;
 }
+.container-s{
+    padding-top: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
