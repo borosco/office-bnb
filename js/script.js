@@ -34,7 +34,7 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-function myFunction() {
+function myFunction4() {
     var weWork = document.getElementById("card-wework");
     if(weWork.style.display === "none") {
         weWork.style.display = "block";
