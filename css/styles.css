@@ -8,12 +8,12 @@
     height: 50%;
     display: table;
     margin-top: 0px;
-    background-image: url(office.jpg);
+   
     background-size: cover;
     background-size: 100%;
 }
 .unlisted{
-    margin: auto;
+    margin-top: 5;
     padding: 0px;
     list-style: none;
     text-align: center;
@@ -30,7 +30,8 @@
     opacity: .8;
     line-height: 40px;
     font-size: 20px;
-    margin-right: 5px;
+    margin-right: 45px;
+    background-image: url(office.jpg)
 }
 .unlisted li a{
     text-decoration: none;
@@ -39,7 +40,7 @@
     margin-right: 0px;
 }
 .unlisted li a:hover{
-    background-color: crimson;
+    background-color: blue;
 }
 .unlisted li .unlisted li{
     display: none;
@@ -147,4 +148,43 @@
 }
 button{
     background-color: cyan;
+}
+.container-s{
+    padding-top: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+.heading{
+    text-align: center;
+    background-image: url(https://bit.ly/2Tm7Ir3);
+    font-family: 'Fredoka One', cursive;
+    background-size: 50%;
+    color: black;
+}
+.about h1 {
+    text-align: center;
+    font-family: 'Odibee Sans', cursive;
+}
+.about p{
+    text-align: center;
+    font-family: 'Courgette', cursive;
+}
+.whatwedo h1 {
+    text-align:center;
+    font-family: 'Odibee Sans', cursive;
+}
+.whatwedo p{
+    text-align: center;
+    font-family: 'Courgette', cursive;
+}
+.whatwedo h5{
+    text-align:center;
+    font-family: 'Vidaloka', serif;
+}
+footer{
+    font-family: 'Khand', sans-serif;
+}
+footer p {
+    font-family: 'Courgette', cursive;
+
 }
