@@ -3,6 +3,7 @@ body {
 	color: #333;
 	background: #ececec;
 	font: 15px/17px arial, helvetica, sans-serif;
+	background-image: url(/images/ol.jpeg);
 }
 form, fieldset {
 	margin: 0;
