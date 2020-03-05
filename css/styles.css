@@ -155,7 +155,7 @@ button{
 }
 .heading{
     text-align: center;
-    background-image: url(https://bit.ly/2Tm7Ir3);
+ 
     font-family: 'Fredoka One', cursive;
     background-size: 50%;
     color: black;
@@ -186,4 +186,27 @@ footer{
 footer p {
     font-family: 'Courgette', cursive;
 
+}
+
+.contact {
+ background-color:lightskyblue ;
+  /* width: 100%;
+  height:50%; */
+  background-size:100%;
+  background-repeat: no-repeat;
+  padding: 50px;
+  color: black;
+  padding-bottom: 300px;
+  text-align: center;
+}
+.contact input  {
+  background: transparent;
+  border: 1px solid black;
+  color: black;
+  width: 400px;
+}
+#messagehere {
+  padding-bottom: 200px;
+  width: 800px;
+  height: 240px;
 }

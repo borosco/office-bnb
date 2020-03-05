@@ -64,11 +64,14 @@ function myFunction3() {
     }
 
 }
-// function function1(){
-//   var cardText = document.getElementById("card")
-//   if(cardText.style.display === "none") {
-//       cardText.style.display = "block";
-//   } else {
-//     cardText.style.display = "none";
-//   }
-// }
+
+
+$("#submitbutton").click(function(){
+    var messageHere = (document.getElementById("messagehere").value);
+    var name = (document.getElementById("name").value);
+    if(messageHere != "") {
+    alert(name + " we have received your message. Thank you for reaching out to us.");
+  } else {
+    alert("Please fill out form before submitting");
+  }
+  });
