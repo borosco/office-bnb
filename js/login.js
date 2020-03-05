@@ -49,7 +49,7 @@ $(function(){
     $("#location").val("");
     $("#size").val("");
     $("#rate").val("");
-    $("#category").val("");
+    $("#category").val("Platinum");
     $("#wifi").val("");
   });
 });
