@@ -64,3 +64,11 @@ function myFunction3() {
     }
 
 }
+// function function1(){
+//   var cardText = document.getElementById("card")
+//   if(cardText.style.display === "none") {
+//       cardText.style.display = "block";
+//   } else {
+//     cardText.style.display = "none";
+//   }
+// }
