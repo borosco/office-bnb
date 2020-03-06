@@ -1,8 +1,8 @@
-# pizzash
-#### Pizzash is pizza delivery app where one can order pizza choose the toppings,crust and size
-#### By **Marion  Ambiyo**
+# Office Share Webpage
+#### This is an application for co-working together in an office setup for people in Towns 
+#### By **Wakaliwao Group**
 ## Description
-Pizzash is pizza delivery app where one can order pizza choose the toppings,crust and size.Also they can choose the delivery method they want.
+This is an application that enables people in motion in Towns to get a working space for affordable rates in  good environment with good internet at an affordable with an option of drinks and food
 ## Live demo
 
 ## Setup Requirements
