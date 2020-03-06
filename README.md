@@ -3,7 +3,7 @@
 #### By **Wakaliwao Group**
 ## Description
 This is an application that enables people in motion in Towns to get a working space for affordable rates in  good environment with good internet at an affordable with an option of drinks and food
-## Live demo
+## Live demo https://borosco.github.io/office-bnb/
 
 ## Setup Requirements
 * Open Terminal {Ctrl+Alt+T}
