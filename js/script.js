@@ -19,6 +19,7 @@ function currentSlide(n) {
 }
 
 function showSlides(n) {
+  console.log("juujuhuig")
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
@@ -90,3 +91,4 @@ $("#submitbutton").click(function(){
     alert("Please fill out form before submitting");
   }
   });
+
