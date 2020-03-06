@@ -34,6 +34,7 @@ $(function(){
 
   $(".agent-form").submit(function(event){
     event.preventDefault();
+    $(".confirm-details").remove();
     var location = $("#location").val();
     var size = $("#size").val();
     var rate = $("#rate").val();
@@ -49,7 +50,7 @@ $(function(){
     $("#location").val("");
     $("#size").val("");
     $("#rate").val("");
-    $("#category").val("");
+    $("#category").val("Platinum");
     $("#wifi").val("");
   });
 });
