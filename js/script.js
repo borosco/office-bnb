@@ -1,3 +1,12 @@
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
 var slideIndex = 2;
 showSlides(slideIndex);
 
@@ -10,6 +19,7 @@ function currentSlide(n) {
 }
 
 function showSlides(n) {
+  console.log("juujuhuig")
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
@@ -25,7 +35,8 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-function myFunction() {
+function myFunction4() {
+    var weWork = document.getElementById("card-wework");
     if(weWork.style.display === "none") {
         weWork.style.display = "block";
     } else {
@@ -63,3 +74,21 @@ function myFunction3() {
     }
 
 }
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+$("#submitbutton").click(function(){
+    var messageHere = (document.getElementById("messagehere").value);
+    var name = (document.getElementById("name").value);
+    if(messageHere != "") {
+    alert(name + " we have received your message. Thank you for reaching out to us.");
+  } else {
+    alert("Please fill out form before submitting");
+  }
+  });
+
