@@ -329,6 +329,7 @@ footer p {
 /* agent page styling */
 .agent{
   margin: 2% 0 2% 0;
+  position: relative;
 }
 
 .header{
